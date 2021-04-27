@@ -44,6 +44,10 @@ const FooterContent = styled.div`
 	height: 3.5rem;
 	align-items: center;
 	justify-content: space-between;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
 
 	.footer__contact {
 		padding: 0 1rem;
