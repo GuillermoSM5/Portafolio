@@ -110,6 +110,31 @@ const AboutContainer = styled.div`
 			margin: 0 2rem;
 			color: #e48900;
 			font-size: 2.5rem;
+			&:hover {
+				color: #c06014;
+			}
+		}
+	}
+	@media (max-width: 770px) {
+		.about__content {
+			flex-direction: column;
+			margin-bottom: 4rem;
+			.about__content-img {
+				width: 8rem;
+				height: 8rem;
+				margin-bottom: 1rem;
+			}
+			.about__content-text {
+				width: 100%;
+				text-align: center;
+				letter-spacing: 1px;
+				line-height: 1.375rem;
+			}
+		}
+		.about__contact {
+			.contact__link {
+				font-size: 2rem;
+			}
 		}
 	}
 `;

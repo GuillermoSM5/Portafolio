@@ -7,7 +7,7 @@ const Proyectos = [
 		title: 'Portafolio',
 		Descripcion: 'Sito web que estan viendo en este momento',
 		repo: 'https://github.com/GuillermoSM5/Portafolio',
-		web: 'https://twitter.com/home',
+		web: 'https://guillermo-cv.netlify.app/',
 		image: CV,
 	},
 	{
