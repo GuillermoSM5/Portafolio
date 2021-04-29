@@ -32,8 +32,11 @@ const Home = () => {
 export default Home;
 
 const HomeContainer = styled.div`
+	position: absolute;
+	top: 33%;
+	left: 5%;
 	width: 90%;
-	margin: 11rem auto;
+	margin: auto;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -56,7 +59,7 @@ const HomeContainer = styled.div`
 				width: 400px;
 				text-align: start;
 				align-items: center;
-				line-height: 28px;
+				line-height: 1.75rem;
 				font-size: 1rem;
 				padding-top: 1rem;
 				letter-spacing: 3px;
@@ -83,6 +86,32 @@ const HomeContainer = styled.div`
 
 			&:hover {
 				background-color: #c06014;
+			}
+		}
+	}
+
+	@media (max-width: 1455px) {
+		margin: auto;
+		top: 40%;
+	}
+	@media (max-width: 684px) {
+		margin: auto;
+		top: 30%;
+		.home__text {
+			.home__text-greetings {
+				flex-direction: column;
+				align-items: center;
+				.home__text-title {
+					text-align: center;
+					font-size: 6rem;
+				}
+				.home__text-paragraph {
+					text-align: center;
+					line-height: 1.5rem;
+					letter-spacing: 1px;
+					width: 100%;
+					margin: 0 0 1rem 0;
+				}
 			}
 		}
 	}
