@@ -76,9 +76,7 @@ const FooterContent = styled.div`
 			}
 		}
 		.footer__text {
-			p {
-				margin: 0;
-			}
+			display: none;
 		}
 	}
 `;

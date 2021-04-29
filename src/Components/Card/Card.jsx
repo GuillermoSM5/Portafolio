@@ -22,6 +22,7 @@ const CardContainer = styled.div`
 	align-items: center;
 	width: 5rem;
 	height: 6rem;
+	margin: auto;
 	.card__logo {
 		font-size: 3rem;
 		color: ${({ color }) => color};

@@ -74,15 +74,24 @@ const CardContainer = styled.div`
 	margin: 4rem auto;
 	.card-vsc {
 		width: 5rem;
-	    height: 6rem;
+		height: 6rem;
 		display: flex;
 		flex-direction: column;
 		text-align: center;
-		.card-vsc__image{
+		.card-vsc__image {
 			margin: auto;
 			width: 3rem;
 			height: 3rem;
 		}
+	}
+	@media (max-width: 770px) {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(4, 1fr);
+		margin: 0 auto;
+		row-gap: 2rem;
+		.card-vsc {
+			margin: auto;
 		}
 	}
 `;
