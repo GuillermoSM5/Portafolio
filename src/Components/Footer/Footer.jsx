@@ -37,6 +37,11 @@ const Footer = () => {
 export default Footer;
 
 const FooterContent = styled.div`
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border-top: 1px solid #e48900;
 	display: flex;
 	width: 90%;
 	text-align: start;
@@ -44,10 +49,6 @@ const FooterContent = styled.div`
 	height: 3.5rem;
 	align-items: center;
 	justify-content: space-between;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
 
 	.footer__contact {
 		padding: 0 1rem;

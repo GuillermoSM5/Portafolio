@@ -45,7 +45,7 @@ const Skills = () => {
 					</div>
 					<div className='card-vsc'>
 						<img className='card-vsc__image' src={Postman} alt='' />
-						<p>VS Code</p>
+						<p>Postman</p>
 					</div>
 				</CardContainer>
 			</SkillsContainer>
@@ -57,7 +57,6 @@ export default Skills;
 
 const SkillsContainer = styled.div`
 	width: 90%;
-	height: 78vh;
 	margin: auto;
 	.skill-title {
 		text-align: center;

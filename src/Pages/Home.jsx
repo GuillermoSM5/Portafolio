@@ -12,7 +12,7 @@ const Home = () => {
 						<p className='home__text-paragraph'>
 							Mi nombre es{' '}
 							<span className='home__text-name'>Guillermo Soto</span> soy un
-							desarrollador Frontend. En esta pagina te comparto alguno de los
+							desarrollador Frontend. En esta pagina te comparto algunos de los
 							proyectos en los que he trabajado.
 						</p>
 					</div>
@@ -33,9 +33,8 @@ export default Home;
 
 const HomeContainer = styled.div`
 	width: 90%;
-	margin: auto;
+	margin: 11rem auto;
 	display: flex;
-	height: 78vh;
 	align-items: center;
 	justify-content: center;
 
@@ -80,6 +79,7 @@ const HomeContainer = styled.div`
 			color: #000000;
 			font-weight: 700;
 			letter-spacing: 2px;
+			margin-bottom: 1rem;
 
 			&:hover {
 				background-color: #c06014;

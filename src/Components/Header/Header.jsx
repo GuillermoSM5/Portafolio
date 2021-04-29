@@ -16,7 +16,7 @@ const Header = () => {
 					Proyectos
 				</Link>
 				<Link to='/about' className='header-content__link'>
-					Sobre mi
+					Sobre mí
 				</Link>
 			</nav>
 		</HeaderContent>
@@ -26,6 +26,7 @@ const Header = () => {
 export default Header;
 
 const HeaderContent = styled.div`
+	align-self: flex-start;
 	width: 90%;
 	border-bottom: 0.0625rem solid #e48900;
 	margin: auto;
