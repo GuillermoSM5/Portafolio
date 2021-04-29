@@ -94,7 +94,7 @@ const HomeContainer = styled.div`
 		margin: auto;
 		top: 40%;
 	}
-	@media (max-width: 684px) {
+	@media (max-width: 770px) {
 		margin: auto;
 		top: 30%;
 		.home__text {

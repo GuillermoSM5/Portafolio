@@ -65,4 +65,20 @@ const FooterContent = styled.div`
 	.footer__text {
 		padding: 0 1rem;
 	}
+	@media (max-width: 770px) {
+		justify-content: space-around;
+		flex-direction: column;
+		.footer__contact {
+			padding: 0;
+			text-align: center;
+			.footer__contact-link {
+				font-size: 1.3rem;
+			}
+		}
+		.footer__text {
+			p {
+				margin: 0;
+			}
+		}
+	}
 `;
