@@ -81,4 +81,22 @@ const Container = styled.div`
 			transition: all 0.2s ease-in;
 		}
 	}
+	@media (max-width: 770px) {
+		width: 20rem;
+		font-size: .9rem;
+		.content {
+			.links{
+				.links__link{
+                     margin: 0 1rem;      					: ;
+				}
+			}
+			.content-image {
+				position: relative;
+			}
+			&:hover .content-image {
+				transform: none;
+				transition: none;
+			}
+		}
+	}
 `;
