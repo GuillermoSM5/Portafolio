@@ -78,6 +78,7 @@ const CardContainer = styled.div`
 		display: flex;
 		flex-direction: column;
 		text-align: center;
+		margin: auto;
 		.card-vsc__image {
 			margin: auto;
 			width: 3rem;
