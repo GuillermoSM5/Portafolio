@@ -34,10 +34,10 @@ const Container = styled.div`
 const ContainerProjects = styled.div`
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	grid-template-rows: repeat(2, 1fr);
+	grid-template-rows: repeat(4, 1fr);
 	row-gap: 2rem;
 	@media (max-width: 770px) {
 		grid-template-columns: 1fr;
-		grid-template-rows: repeat(4, 1fr);
+		grid-template-rows: repeat(7, 1fr);
 	}
 `;
